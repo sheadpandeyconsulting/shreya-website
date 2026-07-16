@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #fbfaf8; color: #111111; font-family: 'DM Sans', Arial, sans-serif; }
+a { color: inherit; text-decoration: none; }
+.font-serif { font-family: 'Playfair Display', Georgia, serif; }
+.section-label { margin-bottom: 14px; font-size: 11px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: #b08b38; }
+.section-title { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(2.25rem, 5vw, 3.7rem); font-weight: 600; line-height: 1.08; letter-spacing: -.035em; color: #111; }
+.section-copy { margin: 18px auto 0; max-width: 38rem; line-height: 1.75; color: #616161; }
+input, textarea { width: 100%; border: 0; border-bottom: 1px solid rgba(255,255,255,.38); border-radius: 0; background: transparent; padding: 13px 0; color: white; font: 400 15px 'DM Sans', Arial, sans-serif; outline: none; }
+input:focus, textarea:focus { border-color: #d6b560; }
+input::placeholder, textarea::placeholder { color: rgba(255,255,255,.55); }
+textarea { min-height: 100px; resize: vertical; }
